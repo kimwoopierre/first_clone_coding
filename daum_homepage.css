@@ -1,0 +1,25 @@
+@charset "UTF-8" ; /* reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form fieldset, legend, textarea, p, blockquote, th, td, input, select, button{margin:0; padding:0;}
+fieldset, img{border:0 none;}
+dl, ul, ol, menu, li{list-style:none;}
+blockquote, q{quotes:none;}
+blockquote:before, blockquote:after{content:"";content:none;}
+input, select, textarea, button{border-radius:0;vertical-align: middle;}
+
+/*skipnavi*/
+.d_index{position:relative;width:100%}
+.d_index .shortcut_g{position:absolute;top:34px;left:0;height:33px;padding:0 20px 0 26px;border-bottom:1px solid #3f4243;font-size:11px;line-height: 14px;background-color: #26292a;color:#fff;letter-spacing:-1px;text-align:center;}
+.d_index .shortcut_g:active, .d_index .shortcut_g:focus{overflow:hidden;top:0;text-decoration:none;z-index:101;}
+.d_index .shortcut_g:active, .d_index .shortcut_g:hover{color:#fff;}
+.d_index .shortcut_g .inner_shortcut{display:inline-block;padding-right:10px;margin-top:8px;background-position: 100% -220px;vertical-align: top;}
+.os_mac .d_index .shortcut_g .inner_shortcut{margin-top:11px;background-position: 100% -223px;}
+/*common img*/
+.ico_pctop{overflow:hidden;background:image("ico_pctop.png") no-repeat 0 0;}
+.ico-pctop2{overflow:hidden;background:image("ico_pctop2.png") no-reapeat 0 0;}
+.ico_vert{overflow:hidden;background:image("ico_vert.png") no-repeat 0 0;}
+.ico_vert2{overflow:hidden;background:image("ico_vert2.png") no-repeat 0 0;}
+.txt_pctop{overflow:hidden;background:image("txt_pctop.png") no-repeat 0 0;letter-spacing:-1px;white-space:nowrap;}
+.ico_top_layer{overflow:hidden;background:image("ico_top_layer.png") no-repeat 0 0;}
+.bg_pctop{background:image("bg_pctop.png") no-repeat 0 0;}
+.num_pctop{overflow:hidden;background:image("num_pctop.png") no-repeat 0 0;}
+.img_thum{display:block;vertical-align:top;}

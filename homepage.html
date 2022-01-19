@@ -18,7 +18,7 @@
     <link href="favicon.ico" rel="shortcut icon">
     <meta name="referrer" content="origin">
     <!--<link rel="search" type="application/openearchdescription+xml" href="https://search.daum.net/OpenSearch.xml" title="다음">-->
-    <link rel="stylesheet" href="https://t1.daumcdn.net/top/tiller-pc/20220113_012622/css/common.css">
+    <link rel="stylesheet" href="daum_homepage.css">
     <style>
         .adfit__tag-button{
             letter-spacing:0;
@@ -156,5 +156,69 @@
         }
     </style>
 </head>
-
+<body>
+    <div id="daumIndex" class="d_index">
+        <a rel="bookmark" href="homepage.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">주요 서비스 바로가기</span>
+        </a>
+        <a rel="bookmark" href="homepage.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">오늘의 정보 바로가기</span>
+        </a>
+        <a rel="bookmark" href="homepage.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">미디어 바로가기</span>
+        </a>
+        <a rel="bookmark" href="homepage.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">멀티미디어 바로가기</span>
+        </a>
+        <a rel="bookmark" href="homepage.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">블로그 정보 바로가기</span>
+        </a>
+        <a rel="bookmark" href="homepage.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">유익한 정보 바로가기</span>
+        </a>
+        <a rel="bookmark" href="homepage.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">쇼핑 바로가기</span>
+        </a>
+        <a rel="bookmark" href="homepage.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">오늘의 포토&영상 바로가기</span>
+        </a>
+        <a id="topAccessibility" href="https://focus.daum.net/daum/pc/accessibility.html" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">웹 접근성 안내</span>
+        </a>
+        <a id="topAdAccessibility" href="http://focus.daum.net/daum/pc/accessibility.html#ad" class="shortcut_g" tabindex="12">
+            <span class="ico_vert inner_shortcut">자동실행 광고 설정</span>
+        </a>
+    </div>
+    <div id="daumWrap">
+        <header id="daumHead" class="head_daum" data-tiara-layer="header">
+            <div class="d_head">
+                <div class="inner_head">
+                    <h1 class="tit_daum" data-tiara-layer="logo">
+                        <a rel="home" href="homepage.html" class="link_daum" data-tiara-layer="header logo link" data-tiara-action-name="header-logo-link">
+                            <img src="daum_link_logo.png" width="180" height="94" class="img_thumb" alt="Daum">
+                        </a>
+                    </h1>
+                    <div class="wrap_search" id="wrapSearch" data-tiara-layer="search">
+                        <h2 class="screen_out">검색</h2>
+                        <form id="daumSearch" name="daumSearch" class="d_sch" method="get" accept-charset="utf-8" action="//search.daum.net/search" role="search">
+                            <input type="hidden" value="tot" name="w">
+                            <input type="hidden" value="YZR" name="DA" id="searchparam">
+                            <input type="hidden" value="btn" name="t_nil_searchbox" id="searchbox">
+                            <input type="hidden" name="sug" id="sug">
+                            <input type="hidden" name="sugo" id="sugo">
+                            <input type="hidden" name="sq" id="sq">
+                            <input type="hidden" name="o" id="o">
+                            <fieldset>
+                                <legend class="screen_out">통합 검색</legend>
+                                <div class="box_search">
+                                    ::
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+</body>
 </html>
